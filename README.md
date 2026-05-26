@@ -34,36 +34,36 @@ cd chmac
 
 ## HOW TO RUN?
 
-Make sure you have Python 3 installed:
+Make sure you have Python 3 installed
 
 ```bash
 python3 --version
 
-List available network interfaces:
+List available network interfaces
 
 ```bash
 python3 mac_changer.py --list
 
 Change MAC address (random)
 
-Linux / macOS:
+Linux / macOS
 
 ```bash
 sudo python3 mac_changer.py -i eth0 -r
 
-Windows (PowerShell / CMD):
+Windows (PowerShell / CMD)
 
 ```bash PowerShell
 python mac_changer.py -i "Wi-Fi" -r
 
-Set specific MAC address:
+Set specific MAC address
 
-Linux / macOS:
+Linux / macOS
 
 ```bash
 sudo python3 mac_changer.py -i eth0 -m AA:BB:CC:DD:EE:FF
 
-Windows:
+Windows
 
 ```bash
 python mac_changer.py -i "Wi-Fi" -m AA:BB:CC:DD:EE:FF
