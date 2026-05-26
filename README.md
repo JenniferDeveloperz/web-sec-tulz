@@ -29,8 +29,18 @@ The user is responsible for ensuring compliance with applicable laws and organiz
 Clone the repository:
 
 ```bash
+
 git clone https://github.com/JenniferDeveloperz/chmac.git
 cd chmac
 
+```
+
 ## Make sure you have Python 3 installed:
+
+```bash
+
 python3 --version
+
+```
+
+
