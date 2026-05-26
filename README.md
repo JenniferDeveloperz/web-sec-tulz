@@ -43,4 +43,47 @@ python3 --version
 
 ```
 
+List available network interfaces:
+
+```bash
+
+python3 chmac.py --list
+
+```
+
+Set specific MAC address:
+
+Linux / macOS:
+
+```bash
+
+sudo python3 chmac.py -i eth0 -m AA:BB:CC:DD:EE:FF
+
+```
+
+Windows:
+
+```bash
+
+python chmac.py -i "Wi-Fi" -m AA:BB:CC:DD:EE:FF
+
+```
+
+Change MAC address (random)
+
+Linux / macOS:
+
+```bash
+
+sudo python3 chmac.py -i eth0 -r
+
+```
+
+Windows (PowerShell / CMD):
+
+```bash
+
+python chmac.py -i "Wi-Fi" -r
+
+```
 
