@@ -32,5 +32,5 @@ Clone the repository:
 git clone https://github.com/JenniferDeveloperz/chmac.git
 cd chmac
 
-Make sure you have Python 3 installed:
+## Make sure you have Python 3 installed:
 python3 --version
